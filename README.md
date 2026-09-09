@@ -5,31 +5,29 @@ uri: "https://www.cm-odivelas.pt"   # Entre as aspas escreve o domínio do websi
 a11y_statement: "https://www.cm-odivelas.pt/acessibilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "CM de Odivelas"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+validity: " 09-09-2026 a 09-09-2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Site Institucional do Município de Odivelas
+# Site Institucional do Município de Odivelas (Sítio Web)
 
-Sítio Web: {{ page.website }}
-
-- Data de criação: {{ page.date }}
-- URL: {{ page.uri }}
-- Propriedade: {{ page.owner }}
-- Candidatura: {{ page.seal }}
-- Validade do selo: {{ page.validity }}
-- Estado: {{ page.status }}
+- Data de criação: 13/07/2026
+- URL: https://www.cm-odivelas.pt
+- Propriedade: CM de Odivelas
+- Candidatura: Ouro
+- Validade do selo:  09-09-2026 a 09-09-2027
+- Estado: Concluído
 
 ## Relatório de Auditoria
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório CM de Odivelas](report.html)
+Consulte aqui a última atualização: [Relatório Site Institucional do Município de Odivelas](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="04082026_report.html">(04/08/2026). Relatório Município de Odivelas</a></li>
+    <li><a href="09092026_report.html">(09/09/2026). Relatório Site Institucional do Município de Odivelas</a></li>
   </ul>
 </details>
 
